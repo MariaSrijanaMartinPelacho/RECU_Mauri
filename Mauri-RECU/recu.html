@@ -1,0 +1,32 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Biblioteca</title>
+    <link rel="stylesheet" href="reu.css">
+  </head>
+  <body>
+    <h1>Gestión de Biblioteca</h1>
+  <div class="container">
+    <div id="libros-container">
+      <h2>Libros en la biblioteca:</h2>
+      <ul id="libros-list"></ul>
+    </div>
+  
+    <form id="buscar-form">
+      <label for="titulo-input">Buscar por título:</label>
+      <input type="text" id="titulo-input">
+      <button type="submit">Buscar</button>
+    </form>
+  
+    <form id="prestamo-form">
+      <label for="libro-select">Libro:</label>
+      <select id="libro-select"></select>
+      <label for="usuario-input">Usuario:</label>
+      <input type="text" id="usuario-input">
+      <button type="submit">Prestar</button>
+    </form>
+  
+    <script src="recu.js"></script>
+  </body>
+  </html>
+  
